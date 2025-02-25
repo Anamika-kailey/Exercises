@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+}
+.container{
+    background-color: black;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+    color: lightgray;
+    justify-items: center;
+} 
+li {
+    margin: 5px;
+}
+
+@media screen and (min-width: 768px){
+    ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
